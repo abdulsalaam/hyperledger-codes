@@ -1,0 +1,25 @@
+query selectEmployees {
+  description: "Select all Employees"
+  statement:
+      SELECT org.altiux.hrms.Employee
+}
+query selectCustomers {
+  description: "Select all Customers"
+  statement:
+      SELECT org.altiux.hrms.Customer
+}
+query selectManagers {
+  description: "Select all Managers"
+  statement:
+      SELECT org.altiux.hrms.Manager
+}
+query selectWallets {
+  description: "Select all wallets"
+  statement:
+      SELECT org.altiux.hrms.Wallet
+}
+query selectFundAccounts {
+  description: "Select all fund accounts"
+  statement:
+      SELECT org.altiux.hrms.Funds
+}
